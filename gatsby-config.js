@@ -20,6 +20,21 @@ module.exports = {
     }
   },
   plugins: [
+    { resolve: `gatsby-source-strapi`,
+      options: { 
+        apiURL: `http://167.172.32.171`, 
+        // Default to 100
+        queryLimit: 1000,  
+        contentTypes: [`posts`, `categories`], 
+        //If using single types place them in this array. 
+        // singleTypes: [`home-page`, `contact`], 
+        // Possibility to login with a strapi user, when content types are not publically available (optional). 
+        // loginData: { 
+        //   identifier: "rsi314", 
+        //   password: "macd3141$", 
+        // }, 
+      }, 
+    }, 
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-lodash",
     "gatsby-plugin-sass",
@@ -74,7 +89,6 @@ module.exports = {
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
     "gatsby-plugin-catch-links",
-    "gatsby-plugin-netlify-cms",
     "gatsby-plugin-twitter",
     {
       resolve: "gatsby-plugin-sitemap",

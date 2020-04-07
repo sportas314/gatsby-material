@@ -12,7 +12,6 @@
     "gatsby-plugin-google-analytics": "^2.1.35",
     "gatsby-plugin-lodash": "^3.1.20",
     "gatsby-plugin-manifest": "^2.3.3",
-    "gatsby-plugin-netlify-cms": "^4.1.38",
     "gatsby-plugin-nprogress": "^2.1.19",
     "gatsby-plugin-offline": "^3.0.34",
     "gatsby-plugin-react-helmet": "^3.1.22",
@@ -27,6 +26,7 @@
     "gatsby-remark-relative-images": "^0.2.3",
     "gatsby-remark-responsive-iframe": "^2.2.32",
     "gatsby-source-filesystem": "^2.1.48",
+    "gatsby-source-strapi": "0.0.12",
     "gatsby-transformer-remark": "^2.6.50",
     "gatsby-transformer-sharp": "^2.4.3",
     "lodash": "^4.17.15",
@@ -58,6 +58,7 @@
     "stylefmt": "^6.0.3",
     "stylelint": "^13.0.0",
     "stylelint-config-standard": "^19.0.0",
+    "webpack": "^4.42.1",
     "write-good": "^1.0.2"
   },
   "keywords": [
