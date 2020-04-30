@@ -25,7 +25,7 @@ module.exports = {
         apiURL: `http://167.172.32.171`, 
         // Default to 100
         queryLimit: 1000,  
-        contentTypes: [`posts`, `categories`], 
+        contentTypes: [`articles`,`tags`, `categories`], 
         //If using single types place them in this array. 
         // singleTypes: [`home-page`, `contact`], 
         // Possibility to login with a strapi user, when content types are not publically available (optional). 
